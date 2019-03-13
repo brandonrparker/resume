@@ -1,0 +1,18 @@
+version: 0.1
+
+phases:
+  install:
+    commands:
+      - echo "Installing bower in the install phase..."
+      - npm install -g bower
+      - echo "Installation Successfull"
+  build:
+    commands:
+      - echo "Build started on resume site"
+      - bower install --allow-root
+      - echo "Build completed on resume site"
+  post_build:
+    commands:
+      - echo "Post build started on resume site"
+      - aws s3 sync . "s3://${BUCKET_NAME}/" --delete
+      - echo "Post build completed on resume site"

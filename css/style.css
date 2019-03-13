@@ -1,0 +1,13 @@
+#styles {
+	background: white;
+	padding-top: 12rem;
+	padding-bottom: 12rem;
+}
+
+#styles .row {
+	max-width: 1024px;
+}
+
+#styles .section-intro {
+	max-width: 800px;
+}

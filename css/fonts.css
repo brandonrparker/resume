@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'lora-bold';
+    src: url('../bower_components/lora-googlefont/Lora-Bold.ttf')
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lora-bold-italic';
+    src: url('../bower_components/lora-googlefont/Lora-Bolditalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lora-italic';
+    src: url('../bower_components/lora-googlefont/Lora-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'lora-regular';
+    src: url('../bower_components/lora-googlefont/Lora-Regular.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*
+ * Poppins
+================================================================================ */
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('../bower_components/poppins-googlefont/Poppins-Bold.ttf')
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-light';
+    src: url('../bower_components/poppins-googlefont/Poppins-Light.ttf')
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-medium';
+    src: url('../bower_components/poppins-googlefont/Poppins-Medium.ttf')
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('../bower_components/poppins-googlefont/Poppins-Regular.ttf')
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url('../bower_components/poppins-googlefont/Poppins-SemiBold.ttf')
+    font-weight: normal;
+    font-style: normal;
+}
